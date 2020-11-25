@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-color: black;
 }
 
 iframe{
@@ -44,8 +45,8 @@ img.center{
 }
 
 .box4{
-
 	background-color: black;
+	margin-bottom: 10em;
 }
 
 .box5{
@@ -56,7 +57,12 @@ img.center{
 
 }
 
-
+.video{
+	width: 80%;
+	min-height: 500px;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
 
 h1{
 	font-family: arial;
@@ -80,8 +86,7 @@ h2{
 
 .fa {
 
-  padding: 20px;
-  font-size: 60px;
+  padding: 5px;
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -91,37 +96,25 @@ h2{
   opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  vertical-align: middle;
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
-  vertical-align: middle;
-}
-.fa-youtube {
-  background: #c4302b;
-  color: white;
-  vertical-align: middle;
-
-
-
-
-.video-container {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px; height: 0; overflow: hidden;
-}
- 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
+	color: white;
+	padding: none;
+	margin: none;
+  }
+  
+  .fa-youtube {
+	color: white;
+	padding: none;
+	margin: none;
+  }
