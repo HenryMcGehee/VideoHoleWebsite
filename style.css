@@ -117,4 +117,14 @@ footer{
 	color: white;
 	padding: none;
 	margin: none;
+	height: 50px;
+	width: 50px;
   }
+
+  .centerText{
+	color: white;
+	margin: auto;
+	max-width: 600px;
+	background-color: #181818;
+	padding: 24px;
+}
